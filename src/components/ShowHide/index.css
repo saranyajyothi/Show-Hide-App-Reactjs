@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.lower-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-right: 30px;
+}
+.button {
+  color: #fc63a7;
+  font-size: 16px;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.hide-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fddddb;
+  border-radius: 10px;
+  height: 100px;
+  width: 200px;
+}
